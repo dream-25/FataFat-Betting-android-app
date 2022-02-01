@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview1" android:padding="8.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview2" android:padding="8.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview3" android:padding="8.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview4" android:padding="8.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview5" android:padding="8.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

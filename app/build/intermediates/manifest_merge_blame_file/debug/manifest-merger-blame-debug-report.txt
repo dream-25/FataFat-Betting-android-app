@@ -1,0 +1,422 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dream.fata.fat"
+4    android:versionCode="1"
+5    android:versionName="1.0-dream" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:5:2-66
+11-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:5:19-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:6:2-64
+12-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:6:19-61
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:7:2-76
+13-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:7:19-73
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:8:2-77
+14-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:8:19-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:9:2-78
+15-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:9:19-75
+16
+17    <application
+17-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:10:2-190:16
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@drawable/app_icon"
+21-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:12:3-36
+22        android:label="@string/app_name"
+22-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:11:3-35
+23        android:theme="@style/AppTheme"
+23-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:14:3-34
+24        android:usesCleartextTraffic="true" >
+24-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:13:3-38
+25        <activity
+25-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:15:3-20:43
+26            android:name="dream.fata.fat.MainActivity"
+26-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:16:4-32
+27            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+27-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:17:4-97
+28            android:hardwareAccelerated="true"
+28-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:18:4-38
+29            android:screenOrientation="portrait"
+29-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:20:4-40
+30            android:supportsPictureInPicture="true" />
+30-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:19:4-43
+31        <activity
+31-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:21:3-26:43
+32            android:name="dream.fata.fat.SigninActivity"
+32-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:22:4-34
+33            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+33-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:23:4-97
+34            android:hardwareAccelerated="true"
+34-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:24:4-38
+35            android:screenOrientation="portrait"
+35-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:26:4-40
+36            android:supportsPictureInPicture="true" />
+36-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:25:4-43
+37        <activity
+37-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:27:3-32:43
+38            android:name="dream.fata.fat.SignupActivity"
+38-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:28:4-34
+39            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+39-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:29:4-97
+40            android:hardwareAccelerated="true"
+40-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:30:4-38
+41            android:screenOrientation="portrait"
+41-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:32:4-40
+42            android:supportsPictureInPicture="true" />
+42-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:31:4-43
+43        <activity
+43-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:33:3-38:43
+44            android:name="dream.fata.fat.AdminActivity"
+44-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:34:4-33
+45            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+45-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:35:4-97
+46            android:hardwareAccelerated="true"
+46-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:36:4-38
+47            android:screenOrientation="portrait"
+47-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:38:4-40
+48            android:supportsPictureInPicture="true" />
+48-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:37:4-43
+49        <activity
+49-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:39:3-44:43
+50            android:name="dream.fata.fat.ChooseActivity"
+50-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:40:4-34
+51            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+51-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:41:4-97
+52            android:hardwareAccelerated="true"
+52-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:42:4-38
+53            android:screenOrientation="portrait"
+53-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:44:4-40
+54            android:supportsPictureInPicture="true" />
+54-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:43:4-43
+55        <activity
+55-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:45:3-50:43
+56            android:name="dream.fata.fat.AdminResultActivity"
+56-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:46:4-39
+57            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+57-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:47:4-97
+58            android:hardwareAccelerated="true"
+58-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:48:4-38
+59            android:screenOrientation="portrait"
+59-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:50:4-40
+60            android:supportsPictureInPicture="true" />
+60-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:49:4-43
+61        <activity
+61-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:51:3-56:43
+62            android:name="dream.fata.fat.RequestMoneyActivity"
+62-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:52:4-40
+63            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+63-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:53:4-97
+64            android:hardwareAccelerated="true"
+64-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:54:4-38
+65            android:screenOrientation="portrait"
+65-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:56:4-40
+66            android:supportsPictureInPicture="true" />
+66-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:55:4-43
+67        <activity
+67-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:57:3-62:43
+68            android:name="dream.fata.fat.WithdrawMoneyActivity"
+68-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:58:4-41
+69            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+69-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:59:4-97
+70            android:hardwareAccelerated="true"
+70-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:60:4-38
+71            android:screenOrientation="portrait"
+71-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:62:4-40
+72            android:supportsPictureInPicture="true" />
+72-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:61:4-43
+73        <activity
+73-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:63:3-68:43
+74            android:name="dream.fata.fat.MyAccountActivity"
+74-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:64:4-37
+75            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+75-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:65:4-97
+76            android:hardwareAccelerated="true"
+76-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:66:4-38
+77            android:screenOrientation="portrait"
+77-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:68:4-40
+78            android:supportsPictureInPicture="true" />
+78-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:67:4-43
+79        <activity
+79-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:69:3-75:49
+80            android:name="dream.fata.fat.GamesTimeActivity"
+80-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:70:4-37
+81            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+81-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:71:4-97
+82            android:hardwareAccelerated="true"
+82-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:72:4-38
+83            android:screenOrientation="portrait"
+83-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:74:4-40
+84            android:supportsPictureInPicture="true"
+84-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:73:4-43
+85            android:windowSoftInputMode="stateVisible" />
+85-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:75:4-46
+86        <activity
+86-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:76:3-81:43
+87            android:name="dream.fata.fat.GameRulesActivity"
+87-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:77:4-37
+88            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+88-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:78:4-97
+89            android:hardwareAccelerated="true"
+89-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:79:4-38
+90            android:screenOrientation="portrait"
+90-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:81:4-40
+91            android:supportsPictureInPicture="true" />
+91-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:80:4-43
+92        <activity
+92-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:82:3-87:43
+93            android:name="dream.fata.fat.AdminRMActivity"
+93-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:83:4-35
+94            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+94-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:84:4-97
+95            android:hardwareAccelerated="true"
+95-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:85:4-38
+96            android:screenOrientation="portrait"
+96-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:87:4-40
+97            android:supportsPictureInPicture="true" />
+97-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:86:4-43
+98        <activity
+98-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:88:3-93:43
+99            android:name="dream.fata.fat.AdminWMActivity"
+99-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:89:4-35
+100            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+100-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:90:4-97
+101            android:hardwareAccelerated="true"
+101-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:91:4-38
+102            android:screenOrientation="portrait"
+102-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:93:4-40
+103            android:supportsPictureInPicture="true" />
+103-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:92:4-43
+104        <activity
+104-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:94:3-99:43
+105            android:name="dream.fata.fat.TransactionsActivity"
+105-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:95:4-40
+106            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+106-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:96:4-97
+107            android:hardwareAccelerated="true"
+107-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:97:4-38
+108            android:screenOrientation="portrait"
+108-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:99:4-40
+109            android:supportsPictureInPicture="true" />
+109-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:98:4-43
+110        <activity
+110-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:100:3-105:43
+111            android:name="dream.fata.fat.UserChooseActivity"
+111-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:101:4-38
+112            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+112-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:102:4-97
+113            android:hardwareAccelerated="true"
+113-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:103:4-38
+114            android:screenOrientation="portrait"
+114-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:105:4-40
+115            android:supportsPictureInPicture="true" />
+115-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:104:4-43
+116        <activity
+116-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:106:3-117:14
+117            android:name="dream.fata.fat.PermissionActivity"
+117-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:107:4-38
+118            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+118-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:108:4-97
+119            android:hardwareAccelerated="true"
+119-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:109:4-38
+120            android:screenOrientation="portrait"
+120-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:112:4-40
+121            android:supportsPictureInPicture="true"
+121-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:110:4-43
+122            android:theme="@style/AppTheme.FullScreen" >
+122-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:111:4-46
+123            <intent-filter>
+123-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:113:4-116:20
+124                <action android:name="android.intent.action.MAIN" />
+124-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:114:5-57
+124-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:114:13-54
+125
+126                <category android:name="android.intent.category.LAUNCHER" />
+126-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:115:5-65
+126-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:115:15-62
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:118:3-123:43
+130            android:name="dream.fata.fat.UsersActivity"
+130-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:119:4-33
+131            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+131-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:120:4-97
+132            android:hardwareAccelerated="true"
+132-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:121:4-38
+133            android:screenOrientation="portrait"
+133-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:123:4-40
+134            android:supportsPictureInPicture="true" />
+134-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:122:4-43
+135        <activity
+135-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:124:3-129:43
+136            android:name="dream.fata.fat.UserDetailsActivity"
+136-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:125:4-39
+137            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+137-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:126:4-97
+138            android:hardwareAccelerated="true"
+138-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:127:4-38
+139            android:screenOrientation="portrait"
+139-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:129:4-40
+140            android:supportsPictureInPicture="true" />
+140-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:128:4-43
+141        <activity
+141-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:130:3-135:43
+142            android:name="dream.fata.fat.PlaySingleActivity"
+142-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:131:4-38
+143            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+143-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:132:4-97
+144            android:hardwareAccelerated="true"
+144-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:133:4-38
+145            android:screenOrientation="portrait"
+145-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:135:4-40
+146            android:supportsPictureInPicture="true" />
+146-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:134:4-43
+147        <activity
+147-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:136:3-141:43
+148            android:name="dream.fata.fat.PlayPattiActivity"
+148-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:137:4-37
+149            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+149-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:138:4-97
+150            android:hardwareAccelerated="true"
+150-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:139:4-38
+151            android:screenOrientation="portrait"
+151-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:141:4-40
+152            android:supportsPictureInPicture="true" />
+152-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:140:4-43
+153        <activity
+153-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:142:3-147:48
+154            android:name="dream.fata.fat.ImgFullActivity"
+154-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:143:4-35
+155            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+155-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:144:4-97
+156            android:hardwareAccelerated="true"
+156-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:145:4-38
+157            android:supportsPictureInPicture="true"
+157-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:146:4-43
+158            android:windowSoftInputMode="stateHidden" />
+158-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:147:4-45
+159        <activity
+159-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:148:3-153:43
+160            android:name="dream.fata.fat.TransactionHistoryActivity"
+160-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:149:4-46
+161            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+161-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:150:4-97
+162            android:hardwareAccelerated="true"
+162-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:151:4-38
+163            android:screenOrientation="portrait"
+163-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:153:4-40
+164            android:supportsPictureInPicture="true" />
+164-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:152:4-43
+165        <activity
+165-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:154:3-159:43
+166            android:name="dream.fata.fat.PlayHistoryActivity"
+166-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:155:4-39
+167            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+167-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:156:4-97
+168            android:hardwareAccelerated="true"
+168-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:157:4-38
+169            android:screenOrientation="portrait"
+169-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:159:4-40
+170            android:supportsPictureInPicture="true" />
+170-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:158:4-43
+171        <activity
+171-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:160:3-165:43
+172            android:name="dream.fata.fat.ResultActivity"
+172-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:161:4-34
+173            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+173-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:162:4-97
+174            android:hardwareAccelerated="true"
+174-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:163:4-38
+175            android:screenOrientation="portrait"
+175-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:165:4-40
+176            android:supportsPictureInPicture="true" />
+176-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:164:4-43
+177
+178        <meta-data
+178-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:166:3-168:60
+179            android:name="com.google.android.gms.version"
+179-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:167:4-49
+180            android:value="@integer/google_play_services_version" />
+180-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:168:4-57
+181
+182        <provider
+182-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:169:3-173:30
+183            android:name="com.google.firebase.provider.FirebaseInitProvider"
+183-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:170:4-68
+184            android:authorities="dream.fata.fat.firebaseinitprovider"
+184-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:171:4-61
+185            android:exported="false"
+185-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:172:4-28
+186            android:initOrder="100" />
+186-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:173:4-27
+187
+188        <service
+188-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:174:3-186:13
+189            android:name="com.google.firebase.components.ComponentDiscoveryService"
+189-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:175:4-75
+190            android:exported="false" >
+190-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:176:4-28
+191            <meta-data
+191-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:177:4-179:73
+192                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+192-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:178:5-97
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:179:5-70
+194            <meta-data
+194-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:180:4-182:73
+195                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+195-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:181:5-97
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:182:5-70
+197            <meta-data
+197-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:183:4-185:73
+198                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+198-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:184:5-95
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:185:5-70
+200        </service>
+201
+202        <uses-library
+202-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:187:3-189:31
+203            android:name="org.apache.http.legacy"
+203-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:188:4-41
+204            android:required="false" />
+204-->E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:189:4-28
+205
+206        <activity
+206-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
+207            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+207-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
+208            android:excludeFromRecents="true"
+208-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
+209            android:exported="true"
+209-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
+210            android:launchMode="singleTask"
+210-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
+211            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+211-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
+213        <activity
+213-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+217    </application>
+218
+219</manifest>

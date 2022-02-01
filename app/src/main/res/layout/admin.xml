@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/_coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@+id/_app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/_toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ScrollView android:id="@+id/vscroll1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/linear7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/ff_online" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="UPDATE FATAFAT RESULT ONLINE" />
+                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/gk_online" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="UPDATE SILIGURI.COM RESULT ONLINE" />
+                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/mb_online" android:background="#ff05b50b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="UPDATE MAIN BAZAR RESULT ONLINE" />
+                        <LinearLayout android:orientation="vertical" android:id="@+id/linear27" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Switch android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/switch1" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="FATAFAT" />
+                            <Switch android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/switch2" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SILIGURI.COM" />
+                            <Switch android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/switch3" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MAIN BAZAR" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear8" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview3" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Give Result To Games" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/linear9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="horizontal" android:id="@+id/linear10" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_fata_fat" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:text="FATAFAT" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/linear12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="horizontal" android:id="@+id/linear13" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_ff_kolkata" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SILIGURI.COM" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@+id/linear14" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_main_bazar" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MAIN BAZAR" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear22" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview5" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fund Actions" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/linear26" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button1" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:text="USERS" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/linear_del" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_del" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:text="Delete History" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

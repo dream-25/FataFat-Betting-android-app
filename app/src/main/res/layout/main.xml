@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@+id/_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/_coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@+id/_app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@+id/_toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ScrollView android:id="@+id/vscroll1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@+id/linear7" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <LinearLayout android:orientation="vertical" android:id="@+id/linear_play_games" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview3" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Play Games" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@+id/linear11" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_fatafat" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:text="FATAFAT" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@+id/linear12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear13" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_goa_kalyan" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SILIGURI.COM" />
+                                    </LinearLayout>
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear14" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button_main_bazar" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MAIN BAZAR" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:orientation="vertical" android:id="@+id/linear_results" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear15" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview4" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="View Result" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@+id/linear17" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff263238" android:id="@+id/button_result_fatafat" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:text="FATAFAT" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@+id/linear19" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear20" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff263238" android:id="@+id/button_result_goa_kalyan" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SILIGURI.COM" />
+                                    </LinearLayout>
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear21" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff263238" android:id="@+id/button_result_main_bazar" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MAIN BAZAR" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:orientation="vertical" android:id="@+id/linear_act" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear22" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/textview5" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Actions" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@+id/linear23" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear24" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff263238" android:id="@+id/button_add_money" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ADD MONEY" />
+                                    </LinearLayout>
+                                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear25" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff263238" android:id="@+id/button_withdraw" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="WITHDRAW" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@+id/linear35" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+                                <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button1" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Transactions" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@+id/linear36" android:background="#ffffffff" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+                                <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/button2" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Play History" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear_call_us" android:background="#ff673ab7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_weight="1.0">
+                        <ImageView android:id="@+id/imageview1" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_call_white" android:scaleType="fitCenter" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textview1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Call Us" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear4" android:background="#ffffffff" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear_whatsapp" android:background="#ff673ab7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_weight="1.0">
+                        <ImageView android:id="@+id/imageview2" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/whatsapp" android:scaleType="fitCenter" />
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textview2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Whatsapp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@+id/_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="72.0dip" app:srcCompat="@drawable/ic_verified_user_white" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:layout_gravity="start" android:id="@+id/_nav_view" android:background="#ffeeeeee" android:layout_width="320.0dip" android:layout_height="fill_parent">
+        <include layout="@layout/_drawer_main" />
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

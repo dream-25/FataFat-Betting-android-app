@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@+id/vscroll1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear2" android:background="#ffe91e63" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/linear3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textview1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" />
+                        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="right" android:id="@+id/textview12" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹ 0" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textview3" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+910000000000" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear4" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textview2" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome Back," />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_home" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview9" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_1" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview4" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Home" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_request_money" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview10" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_2" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview5" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add/Request  Balance" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_withdraw" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview11" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_3" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview6" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Withdraw Money" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_my_acc" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview12" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_4" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview7" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your Account" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_g_time" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview13" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_5" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview8" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Games Timing" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_rules" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview14" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_6" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview9" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Game Rules" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_share" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview15" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_7" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview10" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share App" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_logout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview16" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/menu_8" android:scaleType="fitCenter" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff607d8b" android:id="@+id/textview11" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Logout" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

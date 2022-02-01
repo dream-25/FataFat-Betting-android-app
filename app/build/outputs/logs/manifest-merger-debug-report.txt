@@ -1,0 +1,631 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dream-25\.gradle\caches\transforms-3\69efe5b67b3c0a8ada64fef205491e25\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.mejdi14:Flat-Dialog-Android:1.0.5] C:\Users\Dream-25\.gradle\caches\transforms-3\1f2eb69a63f59c0e35eb7909f68561a6\transformed\jetified-Flat-Dialog-Android-1.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Dream-25\.gradle\caches\transforms-3\f5201d2225b6f3d4631eaa1d9fc08906\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e83191a66c742b44e687448a5f367536\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3fbdaada89678ea7a7e944ee440d4d06\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f849e26cdf964e3d92fb8c19eb905be2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a0c4fa6baf0ce17133a61bd958662b0e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a07ee7633c2e45dfeff3f635923231b0\transformed\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\7e987fdb412403b5e9ea288ef4e07c28\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\51e92e9842b901b6484b10b560918a6a\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d0b7b1a2fad1caef60192eb0adabc80d\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\80b6544cf356fe7005e9ed1834bbef79\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3d7da13085be9cc5911af832600722e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\1e29e001c42560383a7cdd6c10f84820\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a2846fed65e6d7ca641f509d282e2358\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\1adfe66c3e5b04da1f3be4581553df69\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\34228a9609bb6dbd598261db48cf39f9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f6e2caf77f31e41c064c9edd37f7835b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a46c3139a042576a059c9dc0fa80d6a7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\623e8041be3257214c5952fedd575139\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8711954372f680876f9baf19c82dfe5b\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2453272db443ac68fc7adce9d6123a29\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f2d7a4840a56e6753c1609c6187aa001\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bd1f7a11c177259c25bd2715821f3064\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d3c1ba758419334ce6dbf4c4cac96522\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e0b10ec0812a6be8d6baa1f859085f0e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\c967f48afe24b4093681b11f45c1b875\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dream-25\.gradle\caches\transforms-3\e3275bb52f79f883f29e04633d4dc1bd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fb7c016ed9016a8ca14b4470f5589232\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8791c8954e401718b6b2fb261fbddd01\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\644f6ea00cfb8d7c4b71f8ed6f46a55f\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\99c158b8ad5cbcb4296a4a24e4d94090\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\ea91c5157e833372a08e3927f4697055\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\0767b51d3517cdeb3a532f67c6126e48\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\c59b18f8846faf6229c514fc6ef846b4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\6ebdd119e1552f555de5fe39447b7e01\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\882811ac361fe2330c9a66bf95afb2bd\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d5cef419c328ce2b97f6d523cd3a07bc\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\99934f7b83896565f95ab2ee623abc8e\transformed\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+	package
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:4:2-26
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:2:1-191:12
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:3:2-60
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:5:2-66
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:5:19-63
+uses-permission#android.permission.INTERNET
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:6:2-64
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:6:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:7:2-76
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:7:19-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:8:2-77
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:8:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:9:2-78
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:9:19-75
+application
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:10:2-190:16
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dream-25\.gradle\caches\transforms-3\69efe5b67b3c0a8ada64fef205491e25\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dream-25\.gradle\caches\transforms-3\69efe5b67b3c0a8ada64fef205491e25\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Dream-25\.gradle\caches\transforms-3\f5201d2225b6f3d4631eaa1d9fc08906\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Dream-25\.gradle\caches\transforms-3\f5201d2225b6f3d4631eaa1d9fc08906\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3fbdaada89678ea7a7e944ee440d4d06\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3fbdaada89678ea7a7e944ee440d4d06\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a07ee7633c2e45dfeff3f635923231b0\transformed\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a07ee7633c2e45dfeff3f635923231b0\transformed\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\7e987fdb412403b5e9ea288ef4e07c28\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\7e987fdb412403b5e9ea288ef4e07c28\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e0b10ec0812a6be8d6baa1f859085f0e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e0b10ec0812a6be8d6baa1f859085f0e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dream-25\.gradle\caches\transforms-3\e3275bb52f79f883f29e04633d4dc1bd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dream-25\.gradle\caches\transforms-3\e3275bb52f79f883f29e04633d4dc1bd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:11:3-35
+	android:icon
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:12:3-36
+	android:theme
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:14:3-34
+	android:usesCleartextTraffic
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:13:3-38
+activity#dream.fata.fat.MainActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:15:3-20:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:20:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:18:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:19:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:17:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:16:4-32
+activity#dream.fata.fat.SigninActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:21:3-26:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:26:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:24:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:25:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:23:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:22:4-34
+activity#dream.fata.fat.SignupActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:27:3-32:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:32:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:30:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:31:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:29:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:28:4-34
+activity#dream.fata.fat.AdminActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:33:3-38:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:38:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:36:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:37:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:35:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:34:4-33
+activity#dream.fata.fat.ChooseActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:39:3-44:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:44:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:42:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:43:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:41:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:40:4-34
+activity#dream.fata.fat.AdminResultActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:45:3-50:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:50:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:48:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:49:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:47:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:46:4-39
+activity#dream.fata.fat.RequestMoneyActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:51:3-56:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:56:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:54:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:55:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:53:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:52:4-40
+activity#dream.fata.fat.WithdrawMoneyActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:57:3-62:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:62:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:60:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:61:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:59:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:58:4-41
+activity#dream.fata.fat.MyAccountActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:63:3-68:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:68:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:66:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:67:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:65:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:64:4-37
+activity#dream.fata.fat.GamesTimeActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:69:3-75:49
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:74:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:72:4-38
+	android:windowSoftInputMode
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:75:4-46
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:73:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:71:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:70:4-37
+activity#dream.fata.fat.GameRulesActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:76:3-81:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:81:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:79:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:80:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:78:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:77:4-37
+activity#dream.fata.fat.AdminRMActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:82:3-87:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:87:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:85:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:86:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:84:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:83:4-35
+activity#dream.fata.fat.AdminWMActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:88:3-93:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:93:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:91:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:92:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:90:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:89:4-35
+activity#dream.fata.fat.TransactionsActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:94:3-99:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:99:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:97:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:98:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:96:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:95:4-40
+activity#dream.fata.fat.UserChooseActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:100:3-105:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:105:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:103:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:104:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:102:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:101:4-38
+activity#dream.fata.fat.PermissionActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:106:3-117:14
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:112:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:109:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:110:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:108:4-97
+	android:theme
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:111:4-46
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:107:4-38
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:113:4-116:20
+action#android.intent.action.MAIN
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:114:5-57
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:114:13-54
+category#android.intent.category.LAUNCHER
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:115:5-65
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:115:15-62
+activity#dream.fata.fat.UsersActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:118:3-123:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:123:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:121:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:122:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:120:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:119:4-33
+activity#dream.fata.fat.UserDetailsActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:124:3-129:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:129:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:127:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:128:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:126:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:125:4-39
+activity#dream.fata.fat.PlaySingleActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:130:3-135:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:135:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:133:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:134:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:132:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:131:4-38
+activity#dream.fata.fat.PlayPattiActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:136:3-141:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:141:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:139:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:140:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:138:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:137:4-37
+activity#dream.fata.fat.ImgFullActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:142:3-147:48
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:145:4-38
+	android:windowSoftInputMode
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:147:4-45
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:146:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:144:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:143:4-35
+activity#dream.fata.fat.TransactionHistoryActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:148:3-153:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:153:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:151:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:152:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:150:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:149:4-46
+activity#dream.fata.fat.PlayHistoryActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:154:3-159:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:159:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:157:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:158:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:156:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:155:4-39
+activity#dream.fata.fat.ResultActivity
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:160:3-165:43
+	android:screenOrientation
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:165:4-40
+	android:hardwareAccelerated
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:163:4-38
+	android:supportsPictureInPicture
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:164:4-43
+	android:configChanges
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:162:4-97
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:161:4-34
+meta-data#com.google.android.gms.version
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:166:3-168:60
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:168:4-57
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:167:4-49
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:169:3-173:30
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:171:4-61
+	android:exported
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:172:4-28
+	android:initOrder
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:173:4-27
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:170:4-68
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:174:3-186:13
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:30:9-36:19
+	android:exported
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:176:4-28
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:175:4-75
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:177:4-179:73
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:179:5-70
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:178:5-97
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:180:4-182:73
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:32:13-34:85
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:182:5-70
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:181:5-97
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:183:4-185:73
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:33:13-35:85
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:185:5-70
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:184:5-95
+uses-library#org.apache.http.legacy
+ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:187:3-189:31
+	android:required
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:189:4-28
+	android:name
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml:188:4-41
+uses-sdk
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dream-25\.gradle\caches\transforms-3\69efe5b67b3c0a8ada64fef205491e25\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dream-25\.gradle\caches\transforms-3\69efe5b67b3c0a8ada64fef205491e25\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.mejdi14:Flat-Dialog-Android:1.0.5] C:\Users\Dream-25\.gradle\caches\transforms-3\1f2eb69a63f59c0e35eb7909f68561a6\transformed\jetified-Flat-Dialog-Android-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mejdi14:Flat-Dialog-Android:1.0.5] C:\Users\Dream-25\.gradle\caches\transforms-3\1f2eb69a63f59c0e35eb7909f68561a6\transformed\jetified-Flat-Dialog-Android-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Dream-25\.gradle\caches\transforms-3\f5201d2225b6f3d4631eaa1d9fc08906\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Dream-25\.gradle\caches\transforms-3\f5201d2225b6f3d4631eaa1d9fc08906\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e83191a66c742b44e687448a5f367536\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e83191a66c742b44e687448a5f367536\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8e81e974a8e44c5ffd185271a8dcfa44\transformed\jetified-firebase-database-19.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3a31c7a05e3fa74ff04197cba9cbd310\transformed\jetified-firebase-storage-19.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3fbdaada89678ea7a7e944ee440d4d06\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3fbdaada89678ea7a7e944ee440d4d06\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f849e26cdf964e3d92fb8c19eb905be2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f849e26cdf964e3d92fb8c19eb905be2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a0c4fa6baf0ce17133a61bd958662b0e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a0c4fa6baf0ce17133a61bd958662b0e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a07ee7633c2e45dfeff3f635923231b0\transformed\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a07ee7633c2e45dfeff3f635923231b0\transformed\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f7ea5513b645e7a9209072a5cfd50cac\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\7e987fdb412403b5e9ea288ef4e07c28\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\7e987fdb412403b5e9ea288ef4e07c28\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bed7cf9849902c0db98bebfe85141435\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\51e92e9842b901b6484b10b560918a6a\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\51e92e9842b901b6484b10b560918a6a\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d0b7b1a2fad1caef60192eb0adabc80d\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d0b7b1a2fad1caef60192eb0adabc80d\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\80b6544cf356fe7005e9ed1834bbef79\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\80b6544cf356fe7005e9ed1834bbef79\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3d7da13085be9cc5911af832600722e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\3d7da13085be9cc5911af832600722e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\1e29e001c42560383a7cdd6c10f84820\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\1e29e001c42560383a7cdd6c10f84820\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a2846fed65e6d7ca641f509d282e2358\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a2846fed65e6d7ca641f509d282e2358\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\1adfe66c3e5b04da1f3be4581553df69\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\1adfe66c3e5b04da1f3be4581553df69\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\34228a9609bb6dbd598261db48cf39f9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\34228a9609bb6dbd598261db48cf39f9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f6e2caf77f31e41c064c9edd37f7835b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f6e2caf77f31e41c064c9edd37f7835b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a46c3139a042576a059c9dc0fa80d6a7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\a46c3139a042576a059c9dc0fa80d6a7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\623e8041be3257214c5952fedd575139\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\623e8041be3257214c5952fedd575139\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8711954372f680876f9baf19c82dfe5b\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8711954372f680876f9baf19c82dfe5b\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2453272db443ac68fc7adce9d6123a29\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2453272db443ac68fc7adce9d6123a29\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f2d7a4840a56e6753c1609c6187aa001\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\f2d7a4840a56e6753c1609c6187aa001\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fafb8d32a6b6b554ceb0c63b301e5148\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bd1f7a11c177259c25bd2715821f3064\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\bd1f7a11c177259c25bd2715821f3064\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d3c1ba758419334ce6dbf4c4cac96522\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d3c1ba758419334ce6dbf4c4cac96522\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e0b10ec0812a6be8d6baa1f859085f0e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Dream-25\.gradle\caches\transforms-3\e0b10ec0812a6be8d6baa1f859085f0e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\c967f48afe24b4093681b11f45c1b875\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Dream-25\.gradle\caches\transforms-3\c967f48afe24b4093681b11f45c1b875\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dream-25\.gradle\caches\transforms-3\e3275bb52f79f883f29e04633d4dc1bd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dream-25\.gradle\caches\transforms-3\e3275bb52f79f883f29e04633d4dc1bd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fb7c016ed9016a8ca14b4470f5589232\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\fb7c016ed9016a8ca14b4470f5589232\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8791c8954e401718b6b2fb261fbddd01\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\8791c8954e401718b6b2fb261fbddd01\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\644f6ea00cfb8d7c4b71f8ed6f46a55f\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\644f6ea00cfb8d7c4b71f8ed6f46a55f\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\99c158b8ad5cbcb4296a4a24e4d94090\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\99c158b8ad5cbcb4296a4a24e4d94090\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\ea91c5157e833372a08e3927f4697055\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\ea91c5157e833372a08e3927f4697055\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\0767b51d3517cdeb3a532f67c6126e48\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\0767b51d3517cdeb3a532f67c6126e48\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\c59b18f8846faf6229c514fc6ef846b4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\c59b18f8846faf6229c514fc6ef846b4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\6ebdd119e1552f555de5fe39447b7e01\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\6ebdd119e1552f555de5fe39447b7e01\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\882811ac361fe2330c9a66bf95afb2bd\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\882811ac361fe2330c9a66bf95afb2bd\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d5cef419c328ce2b97f6d523cd3a07bc\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\d5cef419c328ce2b97f6d523cd3a07bc\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\99934f7b83896565f95ab2ee623abc8e\transformed\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\99934f7b83896565f95ab2ee623abc8e\transformed\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		ADDED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+		INJECTED from E:\#Completed Projects\FATAFAT\Main Code\FataFat\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\Dream-25\.gradle\caches\transforms-3\de51751c7156d7ac8b4a6b6982312e33\transformed\jetified-firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dream-25\.gradle\caches\transforms-3\2ae1c92f5b1a72bde4f0012b57382875\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
